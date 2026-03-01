@@ -2,6 +2,18 @@ title: TechAhorro
 tagline: El imperio del hardware usado en Argentina
 description: Guías expertas de hardware 2026.
 url: "https://thiagoferreyra044-netizen.github.io"
+baseurl: ""
+
+# Configuración del Tema
 remote_theme: cotes2020/jekyll-theme-chirpy
+
+# Esta línea es la que arregla el error de la pantalla blanca
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
 lang: es
 timezone: America/Argentina/Buenos_Aires
